@@ -32,11 +32,9 @@ struct HomeView: View {
                     Text("5").tag(5)
                     Text("6").tag(6)
                     Text("10").tag(10)
-                    Text("1").tag(1)
-                    Text("2").tag(2)
                    
                 }
-                .pickerStyle(.wheel)
+                .pickerStyle(.segmented)
                 .frame(height: 20, alignment: .leading)
                 .padding()
                 
